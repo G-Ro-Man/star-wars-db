@@ -19,8 +19,8 @@ Used Practice
 13. context
 14. hoc-context
 15. dynamic-context-switch
-
-<!-- 16. prop-types
+16. prop-types
+<!--
 17. basic-routing
 18. how-routing-works
 19. relative-paths
