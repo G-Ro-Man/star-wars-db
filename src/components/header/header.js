@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import './header.css'
 
@@ -6,17 +7,23 @@ const Header = ({ onServiceChange }) => {
   return (
     <div className="header d-flex">
       <h3>
-        <a href="https://google.com">Star Wars DB</a>
+        <Link to="/">Star Wars DB</Link>
       </h3>
       <ul className="d-flex">
         <li>
-          <a href="https://google.com">People</a>
+          <Link to="/people/">People</Link>
         </li>
         <li>
-          <a href="https://google.com">Planets</a>
+          <Link to="/planets/">Planets</Link>
         </li>
         <li>
-          <a href="https://google.com">Starships</a>
+          <Link to="/starships/">Starships</Link>
+        </li>
+        <li>
+          <Link to="/login">Login</Link>
+        </li>
+        <li>
+          <Link to="/secret">Secret</Link>
         </li>
       </ul>
       <button className="btn btn-primary btn-small" onClick={onServiceChange}>

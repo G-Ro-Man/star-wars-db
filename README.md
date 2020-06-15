@@ -20,8 +20,7 @@ Used Practice
 14. hoc-context
 15. dynamic-context-switch
 16. prop-types
-<!--
 17. basic-routing
-18. how-routing-works
+18. routing-works
 19. relative-paths
-20. switch-component -->
+20. switch-component
